@@ -11,7 +11,7 @@ Originally ported to ES-DE by [ant](https://github.com/anthonycaccese/colorful-r
 
 | Gamelist: List (Light) | Gamelist: List (Dark) | Gamelist: Carousel | 
 |----|----|----|
-|![Screenshot_20250108-141727](https://github.com/user-attachments/assets/71044e2c-3ba2-43df-805b-575c0a57aa87)|![Screenshot_20250108-141555](https://github.com/user-attachments/assets/f326ee5b-592a-43e9-ac14-1e9eb5d111a6)|![Screenshot_20250108-142026](https://github.com/user-attachments/assets/692bf2d7-a6d6-429b-aa73-fc9f6c969743)|
+|![Screenshot_20250108-141727](https://github.com/user-attachments/assets/71044e2c-3ba2-43df-805b-575c0a57aa87)|![Screenshot_20250108-154050](https://github.com/user-attachments/assets/9d7f8e09-81d8-432d-95f7-33da94d0ca79)|![Screenshot_20250108-142026](https://github.com/user-attachments/assets/692bf2d7-a6d6-429b-aa73-fc9f6c969743)|
 
 
 
