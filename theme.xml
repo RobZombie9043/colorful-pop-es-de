@@ -71,6 +71,7 @@ license:       creative commons CC-BY-NC-SA
 			<defaultImage>./_inc/systems/images/${system.theme}.webp</defaultImage>
 			<maxItemCount>1</maxItemCount>
 			<itemSize>0.6 0.909</itemSize>
+			<selectedItemMargins>0.1 0.1</selectedItemMargins>
 			<itemScale>1</itemScale>
 			<fastScrolling>true</fastScrolling>
 			<color>00000000</color>
