@@ -3,13 +3,14 @@ A **WIP** port of the [Colorful](https://forums.launchbox-app.com/files/file/208
 Originally ported to ES-DE by [ant](https://github.com/anthonycaccese/colorful-revisited-es-de).
 
 ## **Preview**
-| System View (Light) | System View (Dark) | 
-|----|----|
-|  |  |
+| System View (Light) | System View (Dark) | System View (Black) | 
+|----|----|----|
+|![Screenshot_20250108-141128](https://github.com/user-attachments/assets/d9951e06-939b-43bd-be64-1ca91b3d5a21)|![Screenshot_20250108-141153](https://github.com/user-attachments/assets/dae1f182-ea7a-49bf-8050-aeee994b0410)|![Screenshot_20250108-141757](https://github.com/user-attachments/assets/7186a6e1-893c-43dc-9ead-23aae12ea4ce)|
 
-| Gamelist: List | Gamelist: Carousel | 
-|----|----|
-|  |  |
+
+| Gamelist: List (Light) | Gamelist: List (Dark) | Gamelist: Carousel | 
+|----|----|----|
+|![Screenshot_20250108-141727](https://github.com/user-attachments/assets/71044e2c-3ba2-43df-805b-575c0a57aa87)|![Screenshot_20250108-141555](https://github.com/user-attachments/assets/f326ee5b-592a-43e9-ac14-1e9eb5d111a6)|![Screenshot_20250108-142026](https://github.com/user-attachments/assets/692bf2d7-a6d6-429b-aa73-fc9f6c969743)|
 
 
 
