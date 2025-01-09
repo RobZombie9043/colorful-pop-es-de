@@ -24,7 +24,7 @@ Originally ported to ES-DE by [ant](https://github.com/anthonycaccese/colorful-r
 
 - This theme has a simple set of options that can be changed directly from the UI Settings menu of ES-DE
   
-- `Theme Variant` - sets the theme variant adjusting the gamelist view.
+- `Theme Variant` - sets the theme variant adjusting the gamelist view. Each variant comes in a Colorful or Monochrome version which changes the theme coloring based on the system colors or a gray shade.
    - `List`
    - `Carousel`
 
