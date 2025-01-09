@@ -75,7 +75,7 @@
 		<selectable>true</selectable>
 	</variant>
 	<variant name="carousel">
-		<label>Carousel</label>
+		<label>Carousel - Colorful</label>
 		<selectable>true</selectable>
 	</variant>
 	<variant name="carousel-monochrome">
