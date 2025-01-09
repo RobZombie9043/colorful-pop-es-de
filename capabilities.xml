@@ -67,11 +67,19 @@
 	///
 	-->
 	<variant name="list">
-		<label>List</label>
+		<label>List - Colorful</label>
+		<selectable>true</selectable>
+	</variant>
+	<variant name="list-monochrome">
+		<label>List - Monochrome</label>
 		<selectable>true</selectable>
 	</variant>
 	<variant name="carousel">
 		<label>Carousel</label>
+		<selectable>true</selectable>
+	</variant>
+	<variant name="carousel-monochrome">
+		<label>Carousel - Monochrome</label>
 		<selectable>true</selectable>
 	</variant>
    

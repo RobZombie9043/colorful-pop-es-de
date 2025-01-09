@@ -7,7 +7,7 @@
 	Gamelist View: List
 	///
 	-->
-	<variant name="list">
+	<variant name="list, list-monochrome">
 		<view name="gamelist">
 			<text name="game-players">
 				<pos>0.9175 0.3157407</pos>

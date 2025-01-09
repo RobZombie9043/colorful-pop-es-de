@@ -43,173 +43,194 @@ license:       creative commons CC-BY-NC-SA
 	System View
 	///
 	-->
-	<view name="system">
-		<image name="system-background">
-			<origin>0 0</origin>
-			<pos>0 0</pos>
-			<size>1 1</size>
-			<path>./_inc/images/background.png</path>
-			<tile>false</tile>
-			<color>${backgroundColor}</color>
-			<zIndex>1</zIndex>
-		</image>
-		<image name="background-color">
-			<origin>0 0</origin> 
-			<pos>0.359375 0.0462963</pos>			
-			<size>0.61458333 0.91</size>			
-			<path>${spacerImage}</path>
-			<tile>true</tile>
-			<color>${systemColor}</color>
-			<zIndex>2</zIndex>
-		</image>
-		<carousel name="system-carousel">
-			<pos>0.667 0.5</pos>
-			<size>1 0.909</size>
-			<origin>0.5 0.5</origin>
-			<type>vertical</type>
-			<staticImage>./_inc/systems/pop/${system.theme}.webp</staticImage>
-			<defaultImage>./_inc/systems/images/${system.theme}.webp</defaultImage>
-			<maxItemCount>1</maxItemCount>
-			<itemSize>0.6 0.909</itemSize>
-			<selectedItemMargins>0.1 0.1</selectedItemMargins>
-			<itemScale>1</itemScale>
-			<fastScrolling>true</fastScrolling>
-			<color>00000000</color>
-			<unfocusedItemOpacity>1</unfocusedItemOpacity>
-			<zIndex>5</zIndex>
-		</carousel>
-		<text name="system-year">
-			<origin>0 0</origin> 
-			<pos>0.0260416 0.15</pos>			
-			<size>0.3070624 0.07</size>
-			<verticalAlignment>top</verticalAlignment>
-			<text>${systemReleaseYear}</text>
-			<fontPath>${fontLight}</fontPath>
-			<fontSize>${fontSizeH3}</fontSize>
-			<lineSpacing>1.2</lineSpacing>
-			<color>${systemColor}</color>
-		</text>
-		<text name="systemName, autoCollectionName, customCollectionName">
-			<origin>0 0</origin> 
-			<pos>0.0260416 0.225</pos>			
-			<size>0.3070624 0.275</size>
-			<verticalAlignment>top</verticalAlignment>
-			<fontPath>${fontBold}</fontPath>
-			<fontSize>${fontSizeH1}</fontSize>
-			<lineSpacing>1.2</lineSpacing>
-			<color>${nameColor}</color>
-		</text>
-		<text name="systemName">
-            <text>${systemName}</text>
-            <letterCase>none</letterCase>
-        </text>
-		<text name="system-description">
-			<origin>0 0</origin> 
-			<pos>0.0260416  0.525</pos>			
-			<size>0.3070624 0.175</size>
-			<container>true</container>
-			<verticalAlignment>top</verticalAlignment>
-			<text>${systemDescription}</text>
-			<fontPath>${fontLight}</fontPath>
-			<fontSize>${fontSizeBody}</fontSize>
-			<lineSpacing>1.2</lineSpacing>
-			<color>${descriptionColor}</color>
-			<zIndex>3</zIndex>
-		</text>
-		<image name="background-color-left, background-color-middle, background-color-right">
-			<origin>0 0</origin> 
-			<size>0.10364583 0.186</size>		
-			<path>${spacerImage}</path>
-			<color>${systemColor}</color>
-			<tile>true</tile>
-			<zIndex>2</zIndex>
-		</image>
-		<image name="background-color-left">
-			<pos>0.025520833 0.72222</pos>
-			<brightness>-0.2</brightness>			
-		</image>
-		<image name="background-color-middle">
-			<pos>0.1286456 0.72222</pos>			
-			<brightness>0</brightness>
-		</image>
-		<image name="background-color-right">
-			<pos>0.23177083 0.72222</pos>			
-			<brightness>0.2</brightness>
-		</image>
-		<image name="system-logo">
-			<origin>0.5 0.5</origin> 
-			<pos>0.07708333 0.81522</pos>			
-			<maxSize>0.09 0.16</maxSize>		
-			<path>./_inc/systems/icons/${system.theme}.png</path>
-			<color>ffffff</color>
-			<zIndex>3</zIndex>
-		</image>
-		<image name="system-gamecount-icon">
-			<origin>0.5 0.5</origin> 
-			<pos>0.180208333 0.768721</pos>			
-			<size>0 0.032407</size>
-			<path>./_inc/images/Colorful_IconGames.png</path>
-			<color>${metadataColor}</color>
-			<zIndex>3</zIndex>
-		</image>
-		<text name="system-gamecount">
-			<origin>0.5 0.5</origin> 
-			<pos>0.180208333 0.81522</pos>			
-			<verticalAlignment>center</verticalAlignment>
-			<systemdata>gamecountGamesNoText</systemdata>
-			<fontPath>${fontBold}</fontPath>
-			<fontSize>${fontSizeH4}</fontSize>
-			<lineSpacing>1.2</lineSpacing>
-			<color>${metadataColor}</color>
-		</text>
-		<text name="system-gamecount-label">
-			<origin>0.5 0.5</origin> 
-			<pos>0.180208333 0.861719</pos>			
-			<text>Games</text>
-			<fontPath>${fontBold}</fontPath>
-			<fontSize>${fontSizeCaption}</fontSize>
-			<color>${metadataColor}</color>
-		</text>
-		<image name="system-gamecountfavorites-icon">
-			<origin>0.5 0.5</origin> 
-			<pos>0.281802 0.768721</pos>			
-			<size>0 0.032407</size>		
-			<path>./_inc/images/Colorful_IconFav.png</path>
-			<color>${metadataColor}</color>
-			<zIndex>3</zIndex>
-		</image>
-		<text name="system-gamecountfavorites">
-			<origin>0.5 0.5</origin> 
-			<pos>0.2833333 0.81522</pos>			
-			<verticalAlignment>center</verticalAlignment>
-			<systemdata>gamecountFavoritesNoText</systemdata>
-			<fontPath>${fontBold}</fontPath>
-			<fontSize>${fontSizeH4}</fontSize>
-			<lineSpacing>1.2</lineSpacing>
-			<color>${metadataColor}</color>
-		</text>
-		<text name="system-gamecountfavorites-label">
-			<origin>0.5 0.5</origin> 
-			<pos>0.2833333 0.861719</pos>			
-			<text>Favorites</text>
-			<fontPath>${fontBold}</fontPath>
-			<fontSize>${fontSizeCaption}</fontSize>
-			<color>${metadataColor}</color>
-		</text>
-		<animation name="system-scroll">
-			<origin>1 1</origin>
-			<pos>0.9609375 0.93055</pos>
-			<maxSize>0.075 0.075</maxSize>
-			<path>./_inc/images/Colorful_PlatformWheel_Arrows_Vertical_type2.gif</path>
-		</animation>
-	</view>
+	<variant name="all">
+		<view name="system">
+			<image name="system-background">
+				<origin>0 0</origin>
+				<pos>0 0</pos>
+				<size>1 1</size>
+				<path>./_inc/images/background.png</path>
+				<tile>false</tile>
+				<color>${backgroundColor}</color>
+				<zIndex>1</zIndex>
+			</image>
+			<image name="background-color">
+				<origin>0 0</origin> 
+				<pos>0.359375 0.0462963</pos>			
+				<size>0.61458333 0.91</size>			
+				<path>${spacerImage}</path>
+				<tile>true</tile>
+				<color>${systemColor}</color>
+				<zIndex>2</zIndex>
+			</image>
+			<carousel name="system-carousel">
+				<pos>0.667 0.5</pos>
+				<size>1 0.909</size>
+				<origin>0.5 0.5</origin>
+				<type>vertical</type>
+				<staticImage>./_inc/systems/pop/${system.theme}.webp</staticImage>
+				<defaultImage>./_inc/systems/images/${system.theme}.webp</defaultImage>
+				<maxItemCount>1</maxItemCount>
+				<itemSize>0.6 0.909</itemSize>
+				<selectedItemMargins>0.1 0.1</selectedItemMargins>
+				<itemScale>1</itemScale>
+				<fastScrolling>true</fastScrolling>
+				<color>00000000</color>
+				<unfocusedItemOpacity>1</unfocusedItemOpacity>
+				<zIndex>5</zIndex>
+			</carousel>
+			<text name="system-year">
+				<origin>0 0</origin> 
+				<pos>0.0260416 0.15</pos>			
+				<size>0.3070624 0.07</size>
+				<verticalAlignment>top</verticalAlignment>
+				<text>${systemReleaseYear}</text>
+				<fontPath>${fontLight}</fontPath>
+				<fontSize>${fontSizeH3}</fontSize>
+				<lineSpacing>1.2</lineSpacing>
+				<color>${systemColor}</color>
+			</text>
+			<text name="systemName, autoCollectionName, customCollectionName">
+				<origin>0 0</origin> 
+				<pos>0.0260416 0.225</pos>			
+				<size>0.3070624 0.275</size>
+				<verticalAlignment>top</verticalAlignment>
+				<fontPath>${fontBold}</fontPath>
+				<fontSize>${fontSizeH1}</fontSize>
+				<lineSpacing>1.2</lineSpacing>
+				<color>${nameColor}</color>
+			</text>
+			<text name="systemName">
+				<text>${systemName}</text>
+				<letterCase>none</letterCase>
+			</text>
+			<text name="system-description">
+				<origin>0 0</origin> 
+				<pos>0.0260416  0.525</pos>			
+				<size>0.3070624 0.175</size>
+				<container>true</container>
+				<verticalAlignment>top</verticalAlignment>
+				<text>${systemDescription}</text>
+				<fontPath>${fontLight}</fontPath>
+				<fontSize>${fontSizeBody}</fontSize>
+				<lineSpacing>1.2</lineSpacing>
+				<color>${descriptionColor}</color>
+				<zIndex>3</zIndex>
+			</text>
+			<image name="background-color-left, background-color-middle, background-color-right">
+				<origin>0 0</origin> 
+				<size>0.10364583 0.186</size>		
+				<path>${spacerImage}</path>
+				<color>${systemColor}</color>
+				<tile>true</tile>
+				<zIndex>2</zIndex>
+			</image>
+			<image name="background-color-left">
+				<pos>0.025520833 0.72222</pos>
+				<brightness>-0.2</brightness>			
+			</image>
+			<image name="background-color-middle">
+				<pos>0.1286456 0.72222</pos>			
+				<brightness>0</brightness>
+			</image>
+			<image name="background-color-right">
+				<pos>0.23177083 0.72222</pos>			
+				<brightness>0.2</brightness>
+			</image>
+			<image name="system-logo">
+				<origin>0.5 0.5</origin> 
+				<pos>0.07708333 0.81522</pos>			
+				<maxSize>0.09 0.16</maxSize>		
+				<path>./_inc/systems/icons/${system.theme}.png</path>
+				<color>ffffff</color>
+				<zIndex>3</zIndex>
+			</image>
+			<image name="system-gamecount-icon">
+				<origin>0.5 0.5</origin> 
+				<pos>0.180208333 0.768721</pos>			
+				<size>0 0.032407</size>
+				<path>./_inc/images/Colorful_IconGames.png</path>
+				<color>${metadataColor}</color>
+				<zIndex>3</zIndex>
+			</image>
+			<text name="system-gamecount">
+				<origin>0.5 0.5</origin> 
+				<pos>0.180208333 0.81522</pos>			
+				<verticalAlignment>center</verticalAlignment>
+				<systemdata>gamecountGamesNoText</systemdata>
+				<fontPath>${fontBold}</fontPath>
+				<fontSize>${fontSizeH4}</fontSize>
+				<lineSpacing>1.2</lineSpacing>
+				<color>${metadataColor}</color>
+			</text>
+			<text name="system-gamecount-label">
+				<origin>0.5 0.5</origin> 
+				<pos>0.180208333 0.861719</pos>			
+				<text>Games</text>
+				<fontPath>${fontBold}</fontPath>
+				<fontSize>${fontSizeCaption}</fontSize>
+				<color>${metadataColor}</color>
+			</text>
+			<image name="system-gamecountfavorites-icon">
+				<origin>0.5 0.5</origin> 
+				<pos>0.281802 0.768721</pos>			
+				<size>0 0.032407</size>		
+				<path>./_inc/images/Colorful_IconFav.png</path>
+				<color>${metadataColor}</color>
+				<zIndex>3</zIndex>
+			</image>
+			<text name="system-gamecountfavorites">
+				<origin>0.5 0.5</origin> 
+				<pos>0.2833333 0.81522</pos>			
+				<verticalAlignment>center</verticalAlignment>
+				<systemdata>gamecountFavoritesNoText</systemdata>
+				<fontPath>${fontBold}</fontPath>
+				<fontSize>${fontSizeH4}</fontSize>
+				<lineSpacing>1.2</lineSpacing>
+				<color>${metadataColor}</color>
+			</text>
+			<text name="system-gamecountfavorites-label">
+				<origin>0.5 0.5</origin> 
+				<pos>0.2833333 0.861719</pos>			
+				<text>Favorites</text>
+				<fontPath>${fontBold}</fontPath>
+				<fontSize>${fontSizeCaption}</fontSize>
+				<color>${metadataColor}</color>
+			</text>
+			<animation name="system-scroll">
+				<origin>1 1</origin>
+				<pos>0.9609375 0.93055</pos>
+				<maxSize>0.075 0.075</maxSize>
+				<path>./_inc/images/Colorful_PlatformWheel_Arrows_Vertical_type2.gif</path>
+			</animation>
+		</view>
+	</variant>
+	
+	<!--
+	///
+	System View - Monochrome
+	///
+	-->
+	<variant name="list-monochrome, carousel-monochrome">
+		<view name="system">
+			<image name="background-color">
+				<color>${monochromeColor}</color>
+			</image>
+			<text name="system-year">
+				<color>${monochromeColor}</color>
+			</text>
+			<image name="background-color-left, background-color-middle, background-color-right">
+				<color>${monochromeColor}</color>
+			</image>
+		</view>
+	</variant>
 	
     <!--
 	///
 	Gamelist View: List
 	///
 	-->
-	<variant name="list">
+	<variant name="list, list-monochrome">
 		<view name="gamelist">
 			<image name="game-background">
 				<origin>0 0</origin>
@@ -392,10 +413,34 @@ license:       creative commons CC-BY-NC-SA
 	
 	<!--
 	///
+	Gamelist View: List Monochrome
+	///
+	-->
+	<variant name="list-monochrome">
+		<view name="gamelist">
+			<image name="game-textlist-background-color">
+				<color>${monochromeColor}</color>
+			</image>
+			<textlist name="game-textlist">
+				<selectedColor>${monochromeColor}</selectedColor>
+				<selectedSecondaryColor>${monochromeColor}</selectedSecondaryColor>
+				<selectorColor>${monochromeColor}</selectorColor>
+			</textlist>
+			<text name="game-genre">
+				<color>${monochromeColor}</color>
+			</text>
+			<datetime name="game-release-date">
+				<color>${monochromeColor}</color>
+			</datetime>
+		</view>
+	</variant>
+	
+	<!--
+	///
 	Gamelist View: Carousel
 	///
 	-->
-	<variant name="carousel">
+	<variant name="carousel, carousel-monochrome">
 		<include>./_inc/systems/coversize/${systemCoverSize}.xml</include>
 		<view name="gamelist">
 			<carousel name="game-carousel">
@@ -530,7 +575,7 @@ license:       creative commons CC-BY-NC-SA
 			</text>
 		</view>
 	</variant>
-	
+
 	<!--
 	///
 	Font Size
@@ -589,6 +634,7 @@ license:       creative commons CC-BY-NC-SA
 			<carouselColor>ffffff</carouselColor>
 			<helpIconColor>a1a1a1</helpIconColor>
 			<helpTextColor>818181</helpTextColor>
+			<monochromeColor>999999</monochromeColor>
 		</variables>
 	</colorScheme>
 	<colorScheme name="dark">
@@ -602,6 +648,7 @@ license:       creative commons CC-BY-NC-SA
 			<carouselColor>ffffff</carouselColor>
 			<helpIconColor>a1a1a1</helpIconColor>
 			<helpTextColor>818181</helpTextColor>
+			<monochromeColor>777777</monochromeColor>
 		</variables>
 	</colorScheme>
 	<colorScheme name="black">
@@ -615,6 +662,7 @@ license:       creative commons CC-BY-NC-SA
 			<carouselColor>ffffff</carouselColor>
 			<helpIconColor>a1a1a1</helpIconColor>
 			<helpTextColor>818181</helpTextColor>
+			<monochromeColor>555555</monochromeColor>
 		</variables>
 	</colorScheme>
 	
