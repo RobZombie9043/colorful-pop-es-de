@@ -50,6 +50,9 @@ Originally ported to ES-DE by [ant](https://github.com/anthonycaccese/colorful-r
 
 ## **To-Do**
 - [ ] Complete missing system artwork and logos (111/197 complete)
+- [ ] Add hacks systems
+- [ ] Add gamelist game video variant using Colorful hardware assets
+- [ ] Implement theme customization options
 
 ## **Acknowledgements**
 - Based on original [Colorful](https://forums.launchbox-app.com/files/file/2081-colorful-bigbox-theme-beta/) theme by viking and faeren including use of majority of the artwork assets.
