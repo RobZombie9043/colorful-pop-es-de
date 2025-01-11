@@ -55,8 +55,8 @@ license:       creative commons CC-BY-NC-SA
 				<zIndex>1</zIndex>
 			</image>
 			<image name="background-color">
-				<origin>0 0</origin> 
-				<pos>0.359375 0.0462963</pos>			
+				<origin>0 0.5</origin> 
+				<pos>0.359375 0.5</pos>			
 				<size>0.61458333 0.91</size>			
 				<path>${spacerImage}</path>
 				<tile>true</tile>
@@ -64,14 +64,14 @@ license:       creative commons CC-BY-NC-SA
 				<zIndex>2</zIndex>
 			</image>
 			<carousel name="system-carousel">
-				<pos>0.667 0.5</pos>
-				<size>1 0.909</size>
 				<origin>0.5 0.5</origin>
+				<pos>0.667 0.5</pos>
+				<size>1 0.91</size>
 				<type>vertical</type>
 				<staticImage>./_inc/systems/pop/${system.theme}.webp</staticImage>
 				<defaultImage>./_inc/systems/images/${system.theme}.webp</defaultImage>
 				<maxItemCount>1</maxItemCount>
-				<itemSize>0.6 0.909</itemSize>
+				<itemSize>0.6 0.91</itemSize>
 				<selectedItemMargins>0.1 0.1</selectedItemMargins>
 				<itemScale>1</itemScale>
 				<fastScrolling>true</fastScrolling>
@@ -596,8 +596,8 @@ license:       creative commons CC-BY-NC-SA
 				<zIndex>1</zIndex>
 			</image>
 			<image name="background-color">
-				<origin>0 0</origin> 
-				<pos>0.359375 0.0462963</pos>			
+				<origin>0 0.5</origin> 
+				<pos>0.359375 0.5</pos>			
 				<size>0.61458333 0.91</size>			
 				<path>${spacerImage}</path>
 				<tile>true</tile>
@@ -651,7 +651,7 @@ license:       creative commons CC-BY-NC-SA
 				<path>./_inc/systems/overlay/${system.theme}.webp</path>
 				<default>./_inc/systems/overlay/_default.webp</default>
 				<zIndex>5</zIndex>
-			</image>		
+			</image>	
 		</view>	
 	</variant>
 	

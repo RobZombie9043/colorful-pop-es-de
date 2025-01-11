@@ -3,64 +3,64 @@
 		<aspectRatio name="1:1">				
 			<view name="gamelist">			
 				<video name="game-system-video">		
-					<pos>0.667 0.51</pos>	
-					<size>0.298888888888889 0.168888888888889</size>	
+					<pos>0.666027777777778 0.420138888888889</pos>	
+					<size>0.110277777777778 0.0797222222222222</size>	
 				</video>		
 			</view>			
 		</aspectRatio>				
 		<aspectRatio name="5:4">				
 			<view name="gamelist">			
 				<video name="game-system-video">		
-					<pos>0.667 0.5125</pos>	
-					<size>0.298888888888889 0.211111111111111</size>	
+					<pos>0.666027777777778 0.400173611111111</pos>	
+					<size>0.110277777777778 0.0996527777777778</size>	
 				</video>		
 			</view>			
 		</aspectRatio>				
 		<aspectRatio name="4:3">				
 			<view name="gamelist">			
 				<video name="game-system-video">		
-					<pos>0.667 0.513333333333333</pos>	
-					<size>0.298888888888889 0.225185185185185</size>	
+					<pos>0.666027777777778 0.393518518518519</pos>	
+					<size>0.110277777777778 0.106296296296296</size>	
 				</video>		
 			</view>			
 		</aspectRatio>				
 		<aspectRatio name="3:2">				
 			<view name="gamelist">			
 				<video name="game-system-video">		
-					<pos>0.667 0.515</pos>	
-					<size>0.298888888888889 0.253333333333333</size>	
+					<pos>0.666027777777778 0.380208333333333</pos>	
+					<size>0.110277777777778 0.119583333333333</size>	
 				</video>		
 			</view>			
 		</aspectRatio>				
 		<aspectRatio name="16:10">				
 			<view name="gamelist">			
 				<video name="game-system-video">		
-					<pos>0.667 0.515166666666667</pos>	
-					<size>0.283321759259259 0.256148148148148</size>	
+					<pos>0.666078414351852 0.378877314814815</pos>	
+					<size>0.104534143518519 0.120912037037037</size>	
 				</video>		
 			</view>			
 		</aspectRatio>				
 		<aspectRatio name="16:9">				
 			<view name="gamelist">			
 				<video name="game-system-video">		
-					<pos>0.667 0.515166666666667</pos>	
-					<size>0.254989583333333 0.256148148148148</size>	
+					<pos>0.666170572916667 0.378877314814815</pos>	
+					<size>0.0940807291666667 0.120912037037037</size>	
 				</video>		
 			</view>			
 		</aspectRatio>				
 		<aspectRatio name="19.5:9">				
 			<view name="gamelist">			
 				<video name="game-system-video">		
-					<pos>0.667 0.515166666666667</pos>	
-					<size>0.209222222222222 0.256148148148148</size>	
+					<pos>0.666319444444444 0.378877314814815</pos>	
+					<size>0.0771944444444445 0.120912037037037</size>	
 				</video>		
 			</view>			
 		</aspectRatio>				
 		<aspectRatio name="21:9">				
 			<view name="gamelist">			
 				<video name="game-system-video">		
-					<pos>0.667 0.515166666666667</pos>	
-					<size>0.194277777777778 0.256148148148148</size>	
+					<pos>0.666368055555556 0.378877314814815</pos>	
+					<size>0.0716805555555556 0.120912037037037</size>	
 				</video>		
 			</view>			
 		</aspectRatio>				
