@@ -27,6 +27,7 @@ Originally ported to ES-DE by [ant](https://github.com/anthonycaccese/colorful-r
 - `Theme Variant` - sets the theme variant adjusting the gamelist view. Each variant comes in a Colorful or Monochrome version which changes the theme coloring based on the system colors or a gray shade.
    - `List`
    - `Carousel`
+   - `List (video)`
 
  - `Theme Color Scheme` - sets the theme color scheme adjusting the background image color. 
    - `Light`
@@ -49,9 +50,9 @@ Originally ported to ES-DE by [ant](https://github.com/anthonycaccese/colorful-r
    - `21:9`
 
 ## **To-Do**
-- [ ] Complete missing system artwork and logos (111/197 complete)
+- [ ] Complete missing system artwork and logos (115/197 complete)
 - [ ] Add hacks systems
-- [ ] Add gamelist game video variant using Colorful hardware assets
+- [x] Add gamelist game video variant using Colorful hardware assets
 - [ ] Implement theme customization options
 
 ## **Acknowledgements**
