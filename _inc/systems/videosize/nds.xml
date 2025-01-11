@@ -1,0 +1,68 @@
+<theme>						
+	<variant name="list-video, list-video-monochrome">					
+		<aspectRatio name="1:1">				
+			<view name="gamelist">			
+				<video name="game-system-video">		
+					<pos>0.667277777777778 0.376111111111111</pos>	
+					<size>0.189444444444444 0.141111111111111</size>	
+				</video>		
+			</view>			
+		</aspectRatio>				
+		<aspectRatio name="5:4">				
+			<view name="gamelist">			
+				<video name="game-system-video">		
+					<pos>0.667277777777778 0.345138888888889</pos>	
+					<size>0.189444444444444 0.176388888888889</size>	
+				</video>		
+			</view>			
+		</aspectRatio>				
+		<aspectRatio name="4:3">				
+			<view name="gamelist">			
+				<video name="game-system-video">		
+					<pos>0.667277777777778 0.334814814814815</pos>	
+					<size>0.189444444444444 0.188148148148148</size>	
+				</video>		
+			</view>			
+		</aspectRatio>				
+		<aspectRatio name="3:2">				
+			<view name="gamelist">			
+				<video name="game-system-video">		
+					<pos>0.667277777777778 0.314166666666667</pos>	
+					<size>0.189444444444444 0.211666666666667</size>	
+				</video>		
+			</view>			
+		</aspectRatio>				
+		<aspectRatio name="16:10">				
+			<view name="gamelist">			
+				<video name="game-system-video">		
+					<pos>0.667263310185185 0.312101851851852</pos>	
+					<size>0.179577546296296 0.214018518518519</size>	
+				</video>		
+			</view>			
+		</aspectRatio>				
+		<aspectRatio name="16:9">				
+			<view name="gamelist">			
+				<video name="game-system-video">		
+					<pos>0.667236979166667 0.312101851851852</pos>	
+					<size>0.161619791666667 0.214018518518519</size>	
+				</video>		
+			</view>			
+		</aspectRatio>				
+		<aspectRatio name="19.5:9">				
+			<view name="gamelist">			
+				<video name="game-system-video">		
+					<pos>0.667194444444445 0.312101851851852</pos>	
+					<size>0.132611111111111 0.214018518518519</size>	
+				</video>		
+			</view>			
+		</aspectRatio>				
+		<aspectRatio name="21:9">				
+			<view name="gamelist">			
+				<video name="game-system-video">		
+					<pos>0.667180555555556 0.312101851851852</pos>	
+					<size>0.123138888888889 0.214018518518519</size>	
+				</video>		
+			</view>			
+		</aspectRatio>				
+   </variant>						
+</theme>						

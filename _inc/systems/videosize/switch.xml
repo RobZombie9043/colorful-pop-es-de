@@ -1,0 +1,68 @@
+<theme>					
+	<variant name="list-video, list-video-monochrome">				
+		<aspectRatio name="1:1">			
+			<view name="gamelist">		
+				<video name="game-system-video">	
+					<pos>0.667 0.451944444444444</pos>
+					<size>0.436666666666667 0.246666666666667</size>
+				</video>	
+			</view>		
+		</aspectRatio>			
+		<aspectRatio name="5:4">			
+			<view name="gamelist">		
+				<video name="game-system-video">	
+					<pos>0.667 0.439930555555556</pos>
+					<size>0.436666666666667 0.308333333333333</size>
+				</video>	
+			</view>		
+		</aspectRatio>			
+		<aspectRatio name="4:3">			
+			<view name="gamelist">		
+				<video name="game-system-video">	
+					<pos>0.667 0.435925925925926</pos>
+					<size>0.436666666666667 0.328888888888889</size>
+				</video>	
+			</view>		
+		</aspectRatio>			
+		<aspectRatio name="3:2">			
+			<view name="gamelist">		
+				<video name="game-system-video">	
+					<pos>0.667 0.427916666666667</pos>
+					<size>0.436666666666667 0.37</size>
+				</video>	
+			</view>		
+		</aspectRatio>			
+		<aspectRatio name="16:10">			
+			<view name="gamelist">		
+				<video name="game-system-video">	
+					<pos>0.667 0.427115740740741</pos>
+					<size>0.413923611111111 0.374111111111111</size>
+				</video>	
+			</view>		
+		</aspectRatio>			
+		<aspectRatio name="16:9">			
+			<view name="gamelist">		
+				<video name="game-system-video">	
+					<pos>0.667 0.427115740740741</pos>
+					<size>0.37253125 0.374111111111111</size>
+				</video>	
+			</view>		
+		</aspectRatio>			
+		<aspectRatio name="19.5:9">			
+			<view name="gamelist">		
+				<video name="game-system-video">	
+					<pos>0.667 0.427115740740741</pos>
+					<size>0.305666666666667 0.374111111111111</size>
+				</video>	
+			</view>		
+		</aspectRatio>			
+		<aspectRatio name="21:9">			
+			<view name="gamelist">		
+				<video name="game-system-video">	
+					<pos>0.667 0.427115740740741</pos>
+					<size>0.283833333333333 0.374111111111111</size>
+				</video>	
+			</view>		
+		</aspectRatio>			
+	</variant>				
+</theme>					

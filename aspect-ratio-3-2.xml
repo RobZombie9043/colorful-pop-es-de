@@ -20,7 +20,7 @@
 	Gamelist View: List
 	///
 	-->
-	<variant name="list, list-monochrome">
+	<variant name="list">
 		<view name="gamelist">
 			<text name="game-players">
 				<pos>0.9375 0.3157407</pos>
@@ -33,16 +33,16 @@
 	Gamelist View: Carousel
 	///
 	-->
-	<variant name="carousel, carousel-monochrome">
+	<variant name="carousel">
 		<view name="gamelist">
 			<datetime name="game-release-date">
-				<pos>0.065 0.835</pos>
+				<pos>0.065 0.81</pos>
 			</datetime>
 			<image name="game-players-icon">
-				<pos>0.155  0.835</pos>
+				<pos>0.155  0.815</pos>
 			</image>
 			<text name="game-players-label">
-				<pos>0.193958334 0.835</pos>
+				<pos>0.193958334 0.81</pos>
 			</text>
 		</view>
 	</variant>

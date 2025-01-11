@@ -211,16 +211,17 @@ license:       creative commons CC-BY-NC-SA
 	System View - Monochrome
 	///
 	-->
-	<variant name="list-monochrome, carousel-monochrome">
+	<variant name="list-monochrome, carousel-monochrome, list-video-monochrome">
 		<view name="system">
-			<image name="background-color">
+			<image name="background-color, background-color-left, background-color-middle, background-color-right">
 				<color>${monochromeColor}</color>
 			</image>
 			<text name="system-year">
 				<color>${monochromeColor}</color>
 			</text>
-			<image name="background-color-left, background-color-middle, background-color-right">
-				<color>${monochromeColor}</color>
+			<image name="system-logo">
+				<path>./_inc/systems/icons-white/${system.theme}.png</path>
+				<color>${metadataColor}</color>
 			</image>
 		</view>
 	</variant>
@@ -575,7 +576,105 @@ license:       creative commons CC-BY-NC-SA
 			</text>
 		</view>
 	</variant>
-
+	
+	<!--
+	///
+	Gamelist View: Video Test
+	///
+	-->
+	<variant name="list-video, list-video-monochrome">
+		<include>./_inc/systems/videosize/_default.xml</include>
+		<include>./_inc/systems/videosize/${system.theme}.xml</include>
+		<view name="gamelist">
+			<image name="system-background">
+				<origin>0 0</origin>
+				<pos>0 0</pos>
+				<size>1 1</size>
+				<path>./_inc/images/background3.png</path>
+				<tile>false</tile>
+				<color>${backgroundColor}</color>
+				<zIndex>1</zIndex>
+			</image>
+			<image name="background-color">
+				<origin>0 0</origin> 
+				<pos>0.359375 0.0462963</pos>			
+				<size>0.61458333 0.91</size>			
+				<path>${spacerImage}</path>
+				<tile>true</tile>
+				<color>${systemColor}</color>
+				<zIndex>2</zIndex>
+			</image>
+			<image name="game-system-logo">
+				<origin>0 0.5</origin>
+				<pos>0.0520833 0.135</pos> 
+				<maxSize>0.2 0.12037</maxSize> 
+				<path>./_inc/systems/logos/${system.theme}.svg</path>
+				<zIndex>3</zIndex>
+				<color>${systemColor}</color>
+			</image>
+			<textlist name="game-textlist">
+				<origin>0 0</origin>
+				<pos>0.0520833 0.221296</pos> 
+				<size>0.2552084 0.6861114</size> 
+				<selectedBackgroundMargins>0.075 0.0129629</selectedBackgroundMargins> 
+				<selectedBackgroundCornerRadius>0.5</selectedBackgroundCornerRadius>
+				<fontPath>${fontBold}</fontPath>
+				<fontSize>${fontSizeBody}</fontSize>
+				<lineSpacing>${textlistLineSpacing}</lineSpacing>
+				<primaryColor>${systemColor}</primaryColor>
+				<secondaryColor>${systemColor}</secondaryColor>
+				<selectedColor>${gamelistTextlistColor}</selectedColor>
+				<selectedSecondaryColor>${gamelistTextlistColor}</selectedSecondaryColor>
+				<selectedBackgroundColor>${systemColor}</selectedBackgroundColor>
+				<selectedSecondaryBackgroundColor>${systemColor}</selectedSecondaryBackgroundColor>
+				<selectorColor>${gamelistTextlistColor}</selectorColor>
+				<textHorizontalScrolling>true</textHorizontalScrolling>
+				<zIndex>10</zIndex>
+			</textlist>
+			<image name="game-system-image">
+				<origin>0.5 0.5</origin> 
+				<pos>0.667 0.5</pos>	
+				<maxSize>0.6 0.91</maxSize>	
+				<path>./_inc/systems/images/${system.theme}.webp</path>
+				<default>./_inc/systems/images/_default.webp</default>
+				<zIndex>3</zIndex>
+			</image>
+			<video name="game-system-video">
+				<origin>0.5 0.5</origin> 
+				<imageType>titlescreen, screenshot</imageType>
+				<zIndex>4</zIndex>
+			</video>
+			<image name="game-system-image-overlay">
+				<origin>0.5 0.5</origin> 
+				<pos>0.667 0.5</pos>	
+				<maxSize>0.6 0.91</maxSize>	
+				<path>./_inc/systems/overlay/${system.theme}.webp</path>
+				<default>./_inc/systems/overlay/_default.webp</default>
+				<zIndex>5</zIndex>
+			</image>		
+		</view>	
+	</variant>
+	
+	<!--
+	///
+	Gamelist View: Video - Monochrome Test
+	///
+	-->
+	<variant name="list-video-monochrome">
+		<include>./_inc/systems/videosize/${system.theme}.xml</include>
+		<view name="gamelist">
+			<image name="background-color, game-system-logo">
+				<color>${monochromeColor}</color>
+			</image>
+			<textlist name="game-textlist">
+				<primaryColor>${monochromeColor}</primaryColor>
+				<secondaryColor>${monochromeColor}</secondaryColor>
+				<selectedBackgroundColor>${monochromeColor}</selectedBackgroundColor>
+				<selectedSecondaryBackgroundColor>${monochromeColor}</selectedSecondaryBackgroundColor>
+			</textlist>
+		</view>	
+	</variant>
+	
 	<!--
 	///
 	Font Size
@@ -634,16 +733,16 @@ license:       creative commons CC-BY-NC-SA
 			<carouselColor>ffffff</carouselColor>
 			<helpIconColor>a1a1a1</helpIconColor>
 			<helpTextColor>818181</helpTextColor>
-			<monochromeColor>999999</monochromeColor>
+			<monochromeColor>777777</monochromeColor>
 		</variables>
 	</colorScheme>
 	<colorScheme name="dark">
 		<variables>
-			<backgroundColor>444444</backgroundColor>
+			<backgroundColor>333333</backgroundColor>
 			<nameColor>ffffff</nameColor>
 			<descriptionColor>ffffff</descriptionColor>
-			<metadataColor>444444</metadataColor>
-			<gamelistTextlistColor>444444</gamelistTextlistColor>
+			<metadataColor>333333</metadataColor>
+			<gamelistTextlistColor>333333</gamelistTextlistColor>
 			<gamelistMetadataColor>ffffff</gamelistMetadataColor>
 			<carouselColor>ffffff</carouselColor>
 			<helpIconColor>a1a1a1</helpIconColor>
@@ -662,7 +761,7 @@ license:       creative commons CC-BY-NC-SA
 			<carouselColor>ffffff</carouselColor>
 			<helpIconColor>a1a1a1</helpIconColor>
 			<helpTextColor>818181</helpTextColor>
-			<monochromeColor>555555</monochromeColor>
+			<monochromeColor>777777</monochromeColor>
 		</variables>
 	</colorScheme>
 	

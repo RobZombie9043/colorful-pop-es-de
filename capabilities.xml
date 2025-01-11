@@ -75,11 +75,19 @@
 		<selectable>true</selectable>
 	</variant>
 	<variant name="carousel">
-		<label>Carousel - Colorful</label>
+		<label>Carousel</label>
 		<selectable>true</selectable>
 	</variant>
 	<variant name="carousel-monochrome">
 		<label>Carousel - Monochrome</label>
+		<selectable>true</selectable>
+	</variant>
+	<variant name="list-video">
+		<label>List (video) - Colorful</label>
+		<selectable>true</selectable>
+	</variant>
+	<variant name="list-video-monochrome">
+		<label>List (video) - Monochrome</label>
 		<selectable>true</selectable>
 	</variant>
    
