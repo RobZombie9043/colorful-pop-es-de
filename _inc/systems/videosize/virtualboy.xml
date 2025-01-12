@@ -1,0 +1,124 @@
+<theme>						
+	<variant name="list-video, list-video-monochrome">					
+		<aspectRatio name="1:1">				
+			<view name="gamelist">			
+				<video name="game-system-video">		
+					<pos>0.626305555555556 0.345833333333333</pos>	
+					<size>0.0608333333333333 0.0344444444444444</size>	
+				</video>
+				<video name="game-system-video-right">
+					<origin>0.5 0.5</origin>
+					<pos>0.706444444444444 0.345833333333333</pos>	
+					<size>0.0616666666666667 0.0344444444444444</size>					
+					<imageType>titlescreen, screenshot</imageType>
+					<zIndex>4</zIndex>
+				</video>				
+			</view>			
+		</aspectRatio>				
+		<aspectRatio name="5:4">				
+			<view name="gamelist">			
+				<video name="game-system-video">		
+					<pos>0.626305555555556 0.307291666666667</pos>	
+					<size>0.0608333333333333 0.0430555555555556</size>	
+				</video>
+				<video name="game-system-video-right">
+					<origin>0.5 0.5</origin>
+					<pos>0.706444444444444 0.307291666666667</pos>	
+					<size>0.0616666666666667 0.0430555555555556</size>					
+					<imageType>titlescreen, screenshot</imageType>
+					<zIndex>4</zIndex>
+				</video>
+			</view>			
+		</aspectRatio>				
+		<aspectRatio name="4:3">				
+			<view name="gamelist">			
+				<video name="game-system-video">		
+					<pos>0.626305555555556 0.294444444444444</pos>	
+					<size>0.0608333333333333 0.0459259259259259</size>	
+				</video>	
+				<video name="game-system-video-right">
+					<origin>0.5 0.5</origin>
+					<pos>0.706444444444444 0.294444444444444</pos>	
+					<size>0.0616666666666667 0.0459259259259259</size>				
+					<imageType>titlescreen, screenshot</imageType>
+					<zIndex>4</zIndex>
+				</video>
+			</view>			
+		</aspectRatio>				
+		<aspectRatio name="3:2">				
+			<view name="gamelist">			
+				<video name="game-system-video">		
+					<pos>0.626305555555556 0.26875</pos>	
+					<size>0.0608333333333333 0.0516666666666667</size>	
+				</video>	
+				<video name="game-system-video-right">
+					<origin>0.5 0.5</origin>
+					<pos>0.706444444444444 0.26875</pos>	
+					<size>0.0616666666666667 0.0516666666666667</size>					
+					<imageType>titlescreen, screenshot</imageType>
+					<zIndex>4</zIndex>
+				</video>
+			</view>			
+		</aspectRatio>				
+		<aspectRatio name="16:10">				
+			<view name="gamelist">			
+				<video name="game-system-video">		
+					<pos>0.62842505787037 0.266180555555556</pos>	
+					<size>0.0576649305555556 0.0522407407407407</size>	
+				</video>	
+				<video name="game-system-video-right">
+					<origin>0.5 0.5</origin>
+					<pos>0.704390046296296 0.266180555555556</pos>	
+					<size>0.0584548611111111 0.0522407407407407</size>					
+					<imageType>titlescreen, screenshot</imageType>
+					<zIndex>4</zIndex>
+				</video>
+			</view>			
+		</aspectRatio>				
+		<aspectRatio name="16:9">				
+			<view name="gamelist">			
+				<video name="game-system-video">		
+					<pos>0.632282552083333 0.266180555555556</pos>	
+					<size>0.0518984375 0.0522407407407407</size>	
+				</video>	
+				<video name="game-system-video-right">
+					<origin>0.5 0.5</origin>
+					<pos>0.700651041666667 0.266180555555556</pos>	
+					<size>0.052609375 0.0522407407407407</size>					
+					<imageType>titlescreen, screenshot</imageType>
+					<zIndex>4</zIndex>
+				</video>
+			</view>			
+		</aspectRatio>				
+		<aspectRatio name="19.5:9">				
+			<view name="gamelist">			
+				<video name="game-system-video">		
+					<pos>0.638513888888889 0.266180555555556</pos>	
+					<size>0.0425833333333333 0.0522407407407407</size>	
+				</video>		
+				<video name="game-system-video-right">
+					<origin>0.5 0.5</origin>
+					<pos>0.694611111111111 0.266180555555556</pos>	
+					<size>0.0431666666666667 0.0522407407407407</size>					
+					<imageType>titlescreen, screenshot</imageType>
+					<zIndex>4</zIndex>
+				</video>
+			</view>			
+		</aspectRatio>				
+		<aspectRatio name="21:9">				
+			<view name="gamelist">			
+				<video name="game-system-video">		
+					<pos>0.640548611111111 0.266180555555556</pos>	
+					<size>0.0395416666666667 0.0522407407407407</size>	
+				</video>
+				<video name="game-system-video-right">
+					<origin>0.5 0.5</origin>
+					<pos>0.692638888888889 0.266180555555556</pos>	
+					<size>0.0400833333333333 0.0522407407407407</size>				
+					<imageType>titlescreen, screenshot</imageType>
+					<zIndex>4</zIndex>
+				</video>
+			</view>			
+		</aspectRatio>				
+	</variant>					
+</theme>						
