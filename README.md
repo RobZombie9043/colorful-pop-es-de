@@ -50,9 +50,11 @@ Originally ported to ES-DE by [ant](https://github.com/anthonycaccese/colorful-r
    - `21:9`
 
 ## **To-Do**
-- [ ] Complete missing system artwork and logos (115/197 complete)
-- [ ] Add hacks systems
+- [ ] Update remaining system pop images (115/197 complete)
 - [x] Add gamelist game video variant using Colorful hardware assets
+  - [ ] Update remaining game video positioning and overlays (162/197 complete)
+  - [ ] Make a better default fallback image
+- [ ] Add hacks systems
 - [ ] Implement theme customization options
 
 ## **Acknowledgements**
