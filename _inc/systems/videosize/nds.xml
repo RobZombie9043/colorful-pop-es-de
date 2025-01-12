@@ -16,7 +16,8 @@
 				<video name="game-system-video-bottom">
 					<origin>0.5 0.5</origin>
 					<pos>0.666861111111111 0.591527777777778</pos>
-					<size>0.189166666666667 0.140833333333333</size>				
+					<cropSize>0.189166666666667 0.140833333333333</cropSize>
+					<cropPos>0.5 1</cropPos>
 					<imageType>titlescreen, screenshot</imageType>
 					<zIndex>3.9</zIndex>
 				</video>				
@@ -38,7 +39,8 @@
 				<video name="game-system-video-bottom">
 					<origin>0.5 0.5</origin>	
 					<pos>0.666861111111111 0.614409722222222</pos>
-					<size>0.189166666666667 0.176041666666667</size>
+					<cropSize>0.189166666666667 0.176041666666667</cropSize>
+					<cropPos>0.5 1</cropPos>
 					<imageType>titlescreen, screenshot</imageType>
 					<zIndex>3.9</zIndex>
 				</video>		
@@ -60,7 +62,8 @@
 				<video name="game-system-video-bottom">
 					<origin>0.5 0.5</origin>	
 					<pos>0.666861111111111 0.622037037037037</pos>
-					<size>0.189166666666667 0.187777777777778</size>
+					<cropSize>0.189166666666667 0.187777777777778</cropSize>
+					<cropPos>0.5 1</cropPos>
 					<imageType>titlescreen, screenshot</imageType>
 					<zIndex>3.9</zIndex>
 				</video>		
@@ -82,7 +85,8 @@
 				<video name="game-system-video-bottom">
 					<origin>0.5 0.5</origin>	
 					<pos>0.666861111111111 0.637291666666667</pos>
-					<size>0.189166666666667 0.21125</size>
+					<cropSize>0.189166666666667 0.21125</cropSize>
+					<cropPos>0.5 1</cropPos>
 					<imageType>titlescreen, screenshot</imageType>
 					<zIndex>3.9</zIndex>
 				</video>		
@@ -104,7 +108,8 @@
 				<video name="game-system-video-bottom">
 					<origin>0.5 0.5</origin>	
 					<pos>0.666868344907407 0.63881712962963</pos>
-					<size>0.179314236111111 0.213597222222222</size>
+					<cropSize>0.179314236111111 0.213597222222222</cropSize>
+					<cropPos>0.5 1</cropPos>
 					<imageType>titlescreen, screenshot</imageType>
 					<zIndex>3.9</zIndex>
 				</video>		
@@ -149,7 +154,8 @@
 				<video name="game-system-video-bottom">
 					<origin>0.5 0.5</origin>	
 					<pos>0.666902777777778 0.63881712962963</pos>
-					<size>0.132416666666667 0.213597222222222</size>
+					<cropSize>0.132416666666667 0.213597222222222</cropSize>
+					<cropPos>0.5 1</cropPos>
 					<imageType>titlescreen, screenshot</imageType>
 					<zIndex>3.9</zIndex>
 				</video>		
@@ -171,7 +177,8 @@
 				<video name="game-system-video-bottom">
 					<origin>0.5 0.5</origin>
 					<pos>0.666909722222222 0.63881712962963</pos>
-					<size>0.122958333333333 0.213597222222222</size>
+					<cropSize>0.122958333333333 0.213597222222222</cropSize>
+					<cropPos>0.5 1</cropPos>
 					<imageType>titlescreen, screenshot</imageType>
 					<zIndex>3.9</zIndex>
 				</video>		
