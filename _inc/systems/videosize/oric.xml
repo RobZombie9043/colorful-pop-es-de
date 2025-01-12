@@ -1,0 +1,68 @@
+<theme>						
+	<variant name="list-video, list-video-monochrome">					
+		<aspectRatio name="1:1">				
+			<view name="gamelist">			
+				<video name="game-system-video">		
+					<pos>0.6545 0.440555555555556</pos>	
+					<size>0.179444444444444 0.135555555555556</size>	
+				</video>		
+			</view>			
+		</aspectRatio>				
+		<aspectRatio name="5:4">				
+			<view name="gamelist">			
+				<video name="game-system-video">		
+					<pos>0.6545 0.425694444444444</pos>	
+					<size>0.179444444444444 0.169444444444444</size>	
+				</video>		
+			</view>			
+		</aspectRatio>				
+		<aspectRatio name="4:3">				
+			<view name="gamelist">			
+				<video name="game-system-video">		
+					<pos>0.6545 0.420740740740741</pos>	
+					<size>0.179444444444444 0.180740740740741</size>	
+				</video>		
+			</view>			
+		</aspectRatio>				
+		<aspectRatio name="3:2">				
+			<view name="gamelist">			
+				<video name="game-system-video">		
+					<pos>0.6545 0.410833333333333</pos>	
+					<size>0.179444444444444 0.203333333333333</size>	
+				</video>		
+			</view>			
+		</aspectRatio>				
+		<aspectRatio name="16:10">				
+			<view name="gamelist">			
+				<video name="game-system-video">		
+					<pos>0.655151041666667 0.409842592592593</pos>	
+					<size>0.17009837962963 0.205592592592593</size>	
+				</video>		
+			</view>			
+		</aspectRatio>				
+		<aspectRatio name="16:9">				
+			<view name="gamelist">			
+				<video name="game-system-video">		
+					<pos>0.6563359375 0.409842592592593</pos>	
+					<size>0.153088541666667 0.205592592592593</size>	
+				</video>		
+			</view>			
+		</aspectRatio>				
+		<aspectRatio name="19.5:9">				
+			<view name="gamelist">			
+				<video name="game-system-video">		
+					<pos>0.65825 0.409842592592593</pos>	
+					<size>0.125611111111111 0.205592592592593</size>	
+				</video>		
+			</view>			
+		</aspectRatio>				
+		<aspectRatio name="21:9">				
+			<view name="gamelist">			
+				<video name="game-system-video">		
+					<pos>0.658875 0.409842592592593</pos>	
+					<size>0.116638888888889 0.205592592592593</size>	
+				</video>		
+			</view>			
+		</aspectRatio>				
+	</variant>					
+</theme>						
