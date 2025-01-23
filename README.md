@@ -4,20 +4,19 @@ A **WIP** port of the [Colorful](https://forums.launchbox-app.com/files/file/208
 Originally ported to ES-DE by [ant](https://github.com/anthonycaccese/colorful-revisited-es-de).
 
 ## **Preview**
-| System View (Light) | System View (Dark) | System View (Black) | 
+| System View (Pop Images - Light) | System View (Colorful Iamges - Dark) | 
+|----|----|
+|![System-pop-light](https://github.com/user-attachments/assets/d7359dc0-d282-4902-b0bc-5333508ba5ff)|![System-colorful-dark](https://github.com/user-attachments/assets/75c990f9-f5a5-4f6a-90d0-4aa200d08f46)|
+
+
+| Gamelist: List (video) (Light)| Gamelist: List (detailed) (Dark)| Gamelist: Carousel | 
 |----|----|----|
-|![Screenshot_20250108-141128](https://github.com/user-attachments/assets/d9951e06-939b-43bd-be64-1ca91b3d5a21)|![Screenshot_20250108-141153](https://github.com/user-attachments/assets/dae1f182-ea7a-49bf-8050-aeee994b0410)|![Screenshot_20250108-141757](https://github.com/user-attachments/assets/7186a6e1-893c-43dc-9ead-23aae12ea4ce)|
-
-
-| Gamelist: List (Light) | Gamelist: List (Dark) | Gamelist: Carousel | 
-|----|----|----|
-|![Screenshot_20250108-141727](https://github.com/user-attachments/assets/71044e2c-3ba2-43df-805b-575c0a57aa87)|![Screenshot_20250108-154050](https://github.com/user-attachments/assets/9d7f8e09-81d8-432d-95f7-33da94d0ca79)|![Screenshot_20250108-142026](https://github.com/user-attachments/assets/692bf2d7-a6d6-429b-aa73-fc9f6c969743)|
-
+|![List (video) light](https://github.com/user-attachments/assets/83fc6a7f-ead2-438b-99e6-135626ae2e5e)|![Game-List (detailed)-dark](https://github.com/user-attachments/assets/884241e9-e405-4d04-8bcd-7cee256fb41b)|![Game-Carousel](https://github.com/user-attachments/assets/daf7d69e-d04f-4a35-be59-8b1d0155f263)|
 
 
 ## **Changes made**
 - Modification of colorful assets with pop out effect
-- New carousel game view
+- New game video and carousel game views
 - Some changes to layout and formatting
 
 ## **Configuration Options**
@@ -25,14 +24,23 @@ Originally ported to ES-DE by [ant](https://github.com/anthonycaccese/colorful-r
 - This theme has a simple set of options that can be changed directly from the UI Settings menu of ES-DE
   
 - `Theme Variant` - sets the theme variant adjusting the gamelist view. Each variant comes in a Colorful or Monochrome version which changes the theme coloring based on the system colors or a gray shade.
-   - `List`
-   - `Carousel`
    - `List (video)`
+   - `List (detailed)`
+   - `Carousel` 
 
- - `Theme Color Scheme` - sets the theme color scheme adjusting the background image color. 
-   - `Light`
-   - `Dark`
-   - `Black`
+ - `Theme Color Scheme` - sets the theme color scheme adjusting the background image color. [Pop Images] and [Colorful Images] change the system view artwork between the pop out character design and original colorful system images. (Colorful) and (Mono) changes the theme color scheme to use either the Colorful system colors or a Mono gray scheme. And finally there are light, dark and black variants for each that change the backgorund color.
+   - `[Pop Images] (Colorful) Light`
+   - `[Pop Images] (Colorful) Dark`
+   - `[Pop Images] (Colorful) Black`
+   - `[Pop Images] (Mono) Light`
+   - `[Pop Images] (Mono) Dark`
+   - `[Pop Images] (Mono) Black`
+   - `[Colorful Images] (Colorful) Light`
+   - `[Colorful Images] (Colorful) Dark`
+   - `[Colorful Images] (Colorful) Black`
+   - `[Colorful Images] (Mono) Light`
+   - `[Colorful Images] (Mono) Dark`
+   - `[Colorful Images] (Mono) Black`
      
 - `Font Size` - enables you to change the size of the fonts displayed in the theme.
    - `Small`
@@ -48,15 +56,6 @@ Originally ported to ES-DE by [ant](https://github.com/anthonycaccese/colorful-r
    - `5:4`
    - `19.5:9`
    - `21:9`
-
-## **To-Do**
-- [x] Update remaining system pop images (complete)
-- [x] Add gamelist game video variant using Colorful hardware assets
-  - [x] Update remaining game video positioning and overlays (complete)
-  - [ ] Make a better default fallback image
-- [x] Review changing size of colorful block to match max image size based on aspect ratio (e.g. game cartridges etc get cut off for some aspect ratios but the block extends)  
-- [ ] Add hacks systems
-- [ ] Implement theme customization options
 
 ## **Acknowledgements**
 - Based on original [Colorful](https://forums.launchbox-app.com/files/file/2081-colorful-bigbox-theme-beta/) theme by viking and faeren including use of majority of the artwork assets.
@@ -80,4 +79,11 @@ Originally ported to ES-DE by [ant](https://github.com/anthonycaccese/colorful-r
 - Atari 7800 - Xevious - telecripers - https://www.deviantart.com/telecripers/art/Xevious-x-Bosconian-assault-on-the-Boscobase-950436763
 - Game and watch - Mr. Game and Watch - hybridmink - https://www.artstation.com/artwork/QnZyB
 - PCFX - Zenki By ewangpogi - https://www.deviantart.com/ewangpogi/art/Zenki-780388501
+- Doom - Doom guy - https://image3.uhdpaper.com/wallpaper/doomguy-sword-doom-eternal-uhdpaper.com-8K-3.1903.jpg
+- Quake - https://gameranx.com/wp-content/uploads/2016/10/Quake-Champions-4K-Wallpaper-5.jpg
+- Adam - pitfall - http://a1755.phobos.apple.com/us/r1000/097/Purple/v4/6c/50/f3/6c50f35b-9e88-310c-cdc3-917f2b2531f8/mza_1797008913969465104.png
+- LCD games - double dragon - https://doubledragon.fandom.com/wiki/Double_Dragon_Gaiden:_Rise_of_the_Dragons
+- Pokemini - https://aminoapps.com/c/geek-geek/page/item/gorochu-fanart-for-custom-pokemini-cards/d5lx_LehaI1DlKpBBjwo4Q0DX0q3Nm2axe
+- Supracan - https://gamesdb.launchbox-app.com/games/images/55630-yinsu-feilong
+- Desktop - Hades - https://wallpapercat.com/hades-game-wallpapers#load
 - Navigation sound effects were sourced from SteamOS
