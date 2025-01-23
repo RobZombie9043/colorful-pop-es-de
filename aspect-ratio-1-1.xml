@@ -16,11 +16,10 @@
 		</carousel>
 		<text name="system-year">
 			<size>0.4479166 0.07</size>
-			<fontSize>0.055</fontSize>
 		</text>
 		<text name="systemName, autoCollectionName, customCollectionName">
 			<size>0.4479166 0.22685</size>
-			<fontSize>0.062</fontSize>
+			<fontSize>${fontSizeH3}</fontSize>
 		</text>
 		<text name="system-description">
 			<pos>0.0260416 0.4725</pos>	
@@ -131,7 +130,7 @@
 		<view name="gamelist">
 			<text name="game-name">
 				<size>0.347916666 0.4</size>
-				<fontSize>0.06</fontSize>
+				<fontSize>${fontSizeH2}</fontSize>
 			</text>
 			<datetime name="game-release-date">
 				<pos>0.08 0.835</pos>

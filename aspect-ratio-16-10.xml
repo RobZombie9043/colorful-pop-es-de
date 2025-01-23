@@ -3,9 +3,6 @@
 -->
 <theme>
 	<view name="system">
-		<text name="system-year">
-			<fontSize>0.0575</fontSize>
-		</text>
 		<text name="systemName, autoCollectionName, customCollectionName">
 			<fontSize>0.07</fontSize>
 		</text>

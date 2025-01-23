@@ -12,13 +12,14 @@
 		</image>
 		<carousel name="system-carousel">
 			<pos>0.75 0.5</pos>
-			<itemSize>0.44 0.909</itemSize>
+			<itemSize>0.44 0.91</itemSize>
 		</carousel>
 		<text name="system-year">
 			<size>0.4479166 0.07</size>
 		</text>
 		<text name="systemName, autoCollectionName, customCollectionName">
-			<size>0.4479166 0.18518</size>
+			<size>0.4479166 0.22685</size>
+			<fontSize>${fontSizeH2}</fontSize>
 		</text>
 		<text name="system-description">
 			<pos>0.0260416  0.5</pos>

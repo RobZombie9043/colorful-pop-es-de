@@ -9,11 +9,8 @@
 		<image name="background-color">
 			<size>0.61458333 0.90</size>			
 		</image>
-		<text name="system-year">
-			<fontSize>0.055</fontSize>
-		</text>
 		<text name="systemName, autoCollectionName, customCollectionName">
-			<fontSize>0.062</fontSize>
+			<fontSize>${fontSizeH2}</fontSize>
 		</text>
 		<text name="system-description">
 			<pos>0.0260416 0.4725</pos>	
