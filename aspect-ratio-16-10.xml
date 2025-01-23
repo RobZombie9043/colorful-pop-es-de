@@ -1,0 +1,26 @@
+<!-- 
+16:10 aspect ratio
+-->
+<theme>
+	<view name="system">
+		<text name="system-year">
+			<fontSize>0.0575</fontSize>
+		</text>
+		<text name="systemName, autoCollectionName, customCollectionName">
+			<fontSize>0.07</fontSize>
+		</text>
+	</view>
+	
+	<!--
+	///
+	Gamelist View: List
+	///
+	-->
+	<variant name="list">
+		<view name="gamelist">
+			<text name="game-players">
+				<pos>0.93375 0.3157407</pos>
+			</text>
+		</view>
+	</variant>
+</theme>

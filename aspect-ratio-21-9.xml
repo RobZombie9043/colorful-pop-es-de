@@ -1,0 +1,17 @@
+<!-- 
+21:9 aspect ratio
+-->
+<theme>
+	<!--
+	///
+	Gamelist View: List
+	///
+	-->
+	<variant name="list">
+		<view name="gamelist">
+			<text name="game-players">
+				<pos>0.9125 0.3157407</pos>
+			</text>
+		</view>
+	</variant>
+</theme>
