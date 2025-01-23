@@ -52,40 +52,40 @@
 	///
 	-->
 	<colorScheme name="light">
-		<label>[Pop Images] Colorful-Light</label>
+		<label>[Pop Images] (Colorful) Light</label>
 	</colorScheme>
 	<colorScheme name="dark">
-		<label>[Pop Images] Colorful-Dark</label>
+		<label>[Pop Images] (Colorful) Dark</label>
 	</colorScheme>
 	<colorScheme name="black">
-		<label>[Pop Images] Colorful-Black</label>
+		<label>[Pop Images] (Colorful) Black</label>
 	</colorScheme>
 	<colorScheme name="light-monochrome">
-		<label>[Pop Images] Mono-Light</label>
+		<label>[Pop Images] (Mono) Light</label>
 	</colorScheme>
 	<colorScheme name="dark-monochrome">
-		<label>[Pop Images] Mono-Dark</label>
+		<label>[Pop Images] (Mono) Dark</label>
 	</colorScheme>
 	<colorScheme name="black-monochrome">
-		<label>[Pop Images] Mono-Black</label>
+		<label>[Pop Images] (Mono) Black</label>
 	</colorScheme>
 	<colorScheme name="light-colorful">
-		<label>[Colorful Images] Colorful-Light</label>
+		<label>[Colorful Images] (Colorful) Light</label>
 	</colorScheme>
 	<colorScheme name="dark-colorful">
-		<label>[Colorful Images] Colorful-Dark</label>
+		<label>[Colorful Images] (Colorful) Dark</label>
 	</colorScheme>
 	<colorScheme name="black-colorful">
-		<label>[Colorful Images] Colorful-Black</label>
+		<label>[Colorful Images] (Colorful) Black</label>
 	</colorScheme>
 	<colorScheme name="light-monochrome-colorful">
-		<label>[Colorful Images] Mono-Light</label>
+		<label>[Colorful Images] (Mono) Light</label>
 	</colorScheme>
 	<colorScheme name="dark-monochrome-colorful">
-		<label>[Colorful Images] Mono-Dark</label>
+		<label>[Colorful Images] (Mono) Dark</label>
 	</colorScheme>
 	<colorScheme name="black-monochrome-colorful">
-		<label>[Colorful Images] Mono-Black</label>
+		<label>[Colorful Images] (Mono) Black</label>
 	</colorScheme>
 	
 	<!--
