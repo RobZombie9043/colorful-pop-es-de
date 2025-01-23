@@ -1,5 +1,5 @@
 # colorful-pop-es-de
-A **WIP** port of the [Colorful](https://forums.launchbox-app.com/files/file/2081-colorful-bigbox-theme-beta/) theme by [viking](https://forums.launchbox-app.com/profile/70421-viking/) & [faeran](https://forums.launchbox-app.com/profile/76940-faeran/) for ES-DE.
+A port of the [Colorful](https://forums.launchbox-app.com/files/file/2081-colorful-bigbox-theme-beta/) theme by [viking](https://forums.launchbox-app.com/profile/70421-viking/) & [faeran](https://forums.launchbox-app.com/profile/76940-faeran/) for ES-DE.
 
 Originally ported to ES-DE by [ant](https://github.com/anthonycaccese/colorful-revisited-es-de).
 
