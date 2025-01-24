@@ -189,7 +189,7 @@ license:       creative commons CC-BY-NC-SA
 		</image>
 		<text name="system-gamecountfavorites">
 			<origin>0.5 0.5</origin> 
-			<pos>0.2833333 0.81522</pos>			
+			<pos>0.281802 0.81522</pos>			
 			<verticalAlignment>center</verticalAlignment>
 			<systemdata>gamecountFavoritesNoText</systemdata>
 			<fontPath>${fontBold}</fontPath>
@@ -199,7 +199,7 @@ license:       creative commons CC-BY-NC-SA
 		</text>
 		<text name="system-gamecountfavorites-label">
 			<origin>0.5 0.5</origin> 
-			<pos>0.2833333 0.861719</pos>			
+			<pos>0.281802 0.861719</pos>			
 			<text>Favorites</text>
 			<fontPath>${fontBold}</fontPath>
 			<fontSize>${fontSizeCaption}</fontSize>
