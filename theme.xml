@@ -615,6 +615,42 @@ license:       creative commons CC-BY-NC-SA
 				<default>./_inc/systems/overlay/_default.webp</default>
 				<zIndex>5</zIndex>
 			</image>	
+			<datetime name="game-release-date">
+				<origin>0.5 0</origin>
+				<pos>0.986979165 0.1</pos>
+				<metadata>releasedate</metadata>
+				<defaultValue>Not Set</defaultValue>
+				<fontPath>${fontBold}</fontPath>
+				<fontSize>${fontSizeBody}</fontSize>
+				<lineSpacing>1</lineSpacing>
+				<format>%Y</format>
+				<defaultValue>:space:</defaultValue>
+				<color>${colorfulColor}</color>
+				<rotation>90</rotation>
+				<horizontalAlignment>left</horizontalAlignment>
+			</datetime>
+			<rating name="rating">
+				<origin>0.5 0.5</origin>
+				<pos>0.986979165 0.5</pos>
+				<size>${ratingstarSize1} 0</size>
+				<filledPath>./_inc/images/icon-star-filled.svg</filledPath>
+				<unfilledPath>./_inc/images/icon-star-unfilled.svg</unfilledPath>
+				<overlay>false</overlay>
+				<color>${colorfulColor}</color>
+				<rotation>90</rotation>
+			</rating>
+			<text name="game-developer">
+				<origin>0.5 1</origin>
+				<pos>0.986979165 0.8</pos>
+				<size>0.15 0.05</size>
+				<fontPath>${fontBold}</fontPath>
+				<fontSize>${fontSizeBody}</fontSize>
+				<metadata>developer</metadata>
+				<defaultValue>:space:</defaultValue>
+				<color>${colorfulColor}</color>
+				<rotation>90</rotation>
+				<horizontalAlignment>right</horizontalAlignment>
+			</text>
 		</view>	
 	</variant>
 	
@@ -633,6 +669,9 @@ license:       creative commons CC-BY-NC-SA
 			<fontSizeBody>0.025</fontSizeBody> 
 			<fontSizeCaption>0.01875</fontSizeCaption>
 			<textlistLineSpacing>1.8296304</textlistLineSpacing>
+			<ratingstarSize1>0.0575</ratingstarSize1>
+			<ratingstarSize2>0.075</ratingstarSize2>
+			<ratingstarSize3>0.0925</ratingstarSize3>
 		</variables>
 	</fontSize>
 	<fontSize name="large">
@@ -645,6 +684,9 @@ license:       creative commons CC-BY-NC-SA
 			<fontSizeBody>0.0275</fontSizeBody> 
 			<fontSizeCaption>0.02</fontSizeCaption> 
 			<textlistLineSpacing>1.919192727</textlistLineSpacing>
+			<ratingstarSize1>0.065</ratingstarSize1>
+			<ratingstarSize2>0.0825</ratingstarSize2>
+			<ratingstarSize3>0.1</ratingstarSize3>
 		</variables>
 	</fontSize>
 	<fontSize name="small">
@@ -657,6 +699,9 @@ license:       creative commons CC-BY-NC-SA
 			<fontSizeBody>0.0225</fontSizeBody> 
 			<fontSizeCaption>0.0175</fontSizeCaption> 
 			<textlistLineSpacing>1.793755294</textlistLineSpacing>
+			<ratingstarSize1>0.05</ratingstarSize1>
+			<ratingstarSize2>0.0675</ratingstarSize2>
+			<ratingstarSize3>0.085</ratingstarSize3>
 		</variables>
 	</fontSize>
 	

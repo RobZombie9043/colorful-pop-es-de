@@ -14,4 +14,25 @@
 			</text>
 		</view>
 	</variant>
+	
+	<!--
+	///
+	Gamelist View: Video
+	///
+	-->
+	<variant name="list-video">
+		<view name="gamelist">
+			<datetime name="game-release-date">
+				<pos>0.986979165 0.0775</pos>
+			</datetime>
+			<rating name="rating">
+				<pos>0.986979165 0.5</pos>
+				<size>${ratingstarSize1} 0</size>
+			</rating>
+			<text name="game-developer">
+				<pos>0.986979165 0.8</pos>
+				<size>0.15 0.05</size>
+			</text>
+		</view>
+	</variant>
 </theme>

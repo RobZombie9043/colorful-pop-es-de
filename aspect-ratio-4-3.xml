@@ -110,6 +110,17 @@
 			<image name="background-color">
 				<size>0.61458333 0.8</size>			
 			</image>
+			<datetime name="game-release-date">
+				<pos>0.986979165 0.1375</pos>
+			</datetime>
+			<rating name="rating">
+				<pos>0.986979165 0.5</pos>
+				<size>${ratingstarSize2} 0</size>
+			</rating>
+			<text name="game-developer">
+				<pos>0.986979165 0.75</pos>
+				<size>0.225 0.05</size>
+			</text>
 		</view>
 	</variant>
 </theme>
