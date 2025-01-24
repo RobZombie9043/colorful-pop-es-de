@@ -404,7 +404,7 @@ license:       creative commons CC-BY-NC-SA
 	Gamelist View: Carousel
 	///
 	-->
-	<variant name="carousel">
+	<variant name="carousel, carousel-video">
 		<include>./_inc/systems/coversize/${systemCoverSize}.xml</include>
 		<view name="gamelist">
 			<carousel name="game-carousel">
@@ -425,7 +425,7 @@ license:       creative commons CC-BY-NC-SA
 				<pos>0 0.15</pos>
 				<cropSize>1 1</cropSize>
 				<path>./_inc/images/gamelist-carousel-mask.png</path>
-				<color>000000F2</color>
+				<color>${carouselBackground}</color>
 				<zIndex>2</zIndex>
 			</image>
 			<image name="game-background-mask2">
@@ -433,15 +433,8 @@ license:       creative commons CC-BY-NC-SA
 				<pos>0 0</pos>
 				<cropSize>1 1</cropSize>
 				<path>${spacerImage}</path>
-				<color>0000000D</color>
+				<color>${carouselBackground2}</color>
 				<zIndex>3</zIndex>
-			</image>
-			<image name="game-fanart">
-				<origin>0 0</origin>
-				<pos>0 0</pos>
-				<cropSize>1 1</cropSize>
-				<imageType>fanart, screenshot</imageType>
-				<zIndex>1</zIndex>
 			</image>
 			<text name="game-system-name">
 				<origin>0 0</origin>
@@ -537,6 +530,31 @@ license:       creative commons CC-BY-NC-SA
 				<metadata>players</metadata>
 				<defaultValue>-</defaultValue>
 			</text>
+		</view>
+	</variant>
+	
+	<variant name="carousel">
+		<view name="gamelist">
+			<image name="game-fanart">
+				<origin>0 0</origin>
+				<pos>0 0</pos>
+				<cropSize>1 1</cropSize>
+				<imageType>fanart, screenshot</imageType>
+				<zIndex>1</zIndex>
+			</image>
+		</view>
+	</variant>
+	
+	<variant name="carousel-video">
+		<view name="gamelist">
+			<video name="game-fanart">
+				<origin>0 0</origin>
+				<pos>0 0</pos>
+				<cropSize>1 1</cropSize>
+				<imageType>fanart, screenshot</imageType>
+				<delay>2</delay>
+				<zIndex>1</zIndex>
+			</video>
 		</view>
 	</variant>
 	

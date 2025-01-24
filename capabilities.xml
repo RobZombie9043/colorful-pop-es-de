@@ -105,5 +105,9 @@
 		<label>Carousel</label>
 		<selectable>true</selectable>
 	</variant>
+	<variant name="carousel-video">
+		<label>Carousel (video)</label>
+		<selectable>true</selectable>
+	</variant>
 	
 </themeCapabilities>

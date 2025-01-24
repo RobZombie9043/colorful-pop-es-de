@@ -13,7 +13,9 @@
 			<metadataColor>ffffff</metadataColor>
 			<gamelistTextlistColor>ffffff</gamelistTextlistColor>
 			<gamelistMetadataColor>111111</gamelistMetadataColor>
-			<carouselColor>ffffff</carouselColor>
+			<carouselBackground>ffffffF2</carouselBackground>
+			<carouselBackground2>ffffff26</carouselBackground2>
+			<carouselColor>111111</carouselColor>
 			<helpIconColor>a1a1a1</helpIconColor>
 			<helpTextColor>818181</helpTextColor>
 			<iconColor>icons</iconColor>
@@ -29,6 +31,8 @@
 			<metadataColor>333333</metadataColor>
 			<gamelistTextlistColor>333333</gamelistTextlistColor>
 			<gamelistMetadataColor>ffffff</gamelistMetadataColor>
+			<carouselBackground>222222</carouselBackground>
+			<carouselBackground2>0000000D</carouselBackground2>
 			<carouselColor>ffffff</carouselColor>
 			<helpIconColor>a1a1a1</helpIconColor>
 			<helpTextColor>818181</helpTextColor>
@@ -45,6 +49,8 @@
 			<metadataColor>000000</metadataColor>
 			<gamelistTextlistColor>000000</gamelistTextlistColor>
 			<gamelistMetadataColor>ffffff</gamelistMetadataColor>
+			<carouselBackground>000000F2</carouselBackground>
+			<carouselBackground2>0000000D</carouselBackground2>
 			<carouselColor>ffffff</carouselColor>
 			<helpIconColor>a1a1a1</helpIconColor>
 			<helpTextColor>818181</helpTextColor>
@@ -61,7 +67,9 @@
 			<metadataColor>ffffff</metadataColor>
 			<gamelistTextlistColor>ffffff</gamelistTextlistColor>
 			<gamelistMetadataColor>111111</gamelistMetadataColor>
-			<carouselColor>ffffff</carouselColor>
+			<carouselBackground>ffffffF2</carouselBackground>
+			<carouselBackground2>ffffff26</carouselBackground2>
+			<carouselColor>111111</carouselColor>
 			<helpIconColor>a1a1a1</helpIconColor>
 			<helpTextColor>818181</helpTextColor>
 			<iconColor>icons-white</iconColor>
@@ -77,6 +85,8 @@
 			<metadataColor>333333</metadataColor>
 			<gamelistTextlistColor>333333</gamelistTextlistColor>
 			<gamelistMetadataColor>ffffff</gamelistMetadataColor>
+			<carouselBackground>222222</carouselBackground>
+			<carouselBackground2>0000000D</carouselBackground2>
 			<carouselColor>ffffff</carouselColor>
 			<helpIconColor>a1a1a1</helpIconColor>
 			<helpTextColor>818181</helpTextColor>
@@ -93,6 +103,8 @@
 			<metadataColor>000000</metadataColor>
 			<gamelistTextlistColor>000000</gamelistTextlistColor>
 			<gamelistMetadataColor>ffffff</gamelistMetadataColor>
+			<carouselBackground>000000F2</carouselBackground>
+			<carouselBackground2>0000000D</carouselBackground2>
 			<carouselColor>ffffff</carouselColor>
 			<helpIconColor>a1a1a1</helpIconColor>
 			<helpTextColor>818181</helpTextColor>
@@ -109,7 +121,9 @@
 			<metadataColor>ffffff</metadataColor>
 			<gamelistTextlistColor>ffffff</gamelistTextlistColor>
 			<gamelistMetadataColor>111111</gamelistMetadataColor>
-			<carouselColor>ffffff</carouselColor>
+			<carouselBackground>ffffffF2</carouselBackground>
+			<carouselBackground2>ffffff26</carouselBackground2>
+			<carouselColor>111111</carouselColor>
 			<helpIconColor>a1a1a1</helpIconColor>
 			<helpTextColor>818181</helpTextColor>
 			<iconColor>icons</iconColor>
@@ -125,6 +139,8 @@
 			<metadataColor>333333</metadataColor>
 			<gamelistTextlistColor>333333</gamelistTextlistColor>
 			<gamelistMetadataColor>ffffff</gamelistMetadataColor>
+			<carouselBackground>222222</carouselBackground>
+			<carouselBackground2>0000000D</carouselBackground2>
 			<carouselColor>ffffff</carouselColor>
 			<helpIconColor>a1a1a1</helpIconColor>
 			<helpTextColor>818181</helpTextColor>
@@ -141,6 +157,8 @@
 			<metadataColor>000000</metadataColor>
 			<gamelistTextlistColor>000000</gamelistTextlistColor>
 			<gamelistMetadataColor>ffffff</gamelistMetadataColor>
+			<carouselBackground>000000F2</carouselBackground>
+			<carouselBackground2>0000000D</carouselBackground2>
 			<carouselColor>ffffff</carouselColor>
 			<helpIconColor>a1a1a1</helpIconColor>
 			<helpTextColor>818181</helpTextColor>
@@ -157,7 +175,9 @@
 			<metadataColor>ffffff</metadataColor>
 			<gamelistTextlistColor>ffffff</gamelistTextlistColor>
 			<gamelistMetadataColor>111111</gamelistMetadataColor>
-			<carouselColor>ffffff</carouselColor>
+			<carouselBackground>ffffffF2</carouselBackground>
+			<carouselBackground2>ffffff26</carouselBackground2>
+			<carouselColor>111111</carouselColor>
 			<helpIconColor>a1a1a1</helpIconColor>
 			<helpTextColor>818181</helpTextColor>
 			<iconColor>icons-white</iconColor>
@@ -173,6 +193,8 @@
 			<metadataColor>333333</metadataColor>
 			<gamelistTextlistColor>333333</gamelistTextlistColor>
 			<gamelistMetadataColor>ffffff</gamelistMetadataColor>
+			<carouselBackground>222222</carouselBackground>
+			<carouselBackground2>0000000D</carouselBackground2>
 			<carouselColor>ffffff</carouselColor>
 			<helpIconColor>a1a1a1</helpIconColor>
 			<helpTextColor>818181</helpTextColor>
@@ -189,6 +211,8 @@
 			<metadataColor>000000</metadataColor>
 			<gamelistTextlistColor>000000</gamelistTextlistColor>
 			<gamelistMetadataColor>ffffff</gamelistMetadataColor>
+			<carouselBackground>000000F2</carouselBackground>
+			<carouselBackground2>0000000D</carouselBackground2>
 			<carouselColor>ffffff</carouselColor>
 			<helpIconColor>a1a1a1</helpIconColor>
 			<helpTextColor>818181</helpTextColor>

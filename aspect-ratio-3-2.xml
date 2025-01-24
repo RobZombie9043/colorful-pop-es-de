@@ -36,7 +36,7 @@
 	Gamelist View: Carousel
 	///
 	-->
-	<variant name="carousel">
+	<variant name="carousel, carousel-video">
 		<view name="gamelist">
 			<datetime name="game-release-date">
 				<pos>0.065 0.835</pos>
