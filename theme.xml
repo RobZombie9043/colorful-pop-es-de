@@ -215,7 +215,7 @@ license:       creative commons CC-BY-NC-SA
 	
     <!--
 	///
-	Gamelist View: List
+	Gamelist View: List (Detailed)
 	///
 	-->
 	<variant name="list">
@@ -279,6 +279,7 @@ license:       creative commons CC-BY-NC-SA
 				<pos>0.4140625 0.5</pos>
 				<maxSize>0.279479 0.75</maxSize>
 				<imageType>cover</imageType>
+				<interpolation>linear</interpolation>
 				<zIndex>2</zIndex>
 			</image>
 			<text name="game-genre">
