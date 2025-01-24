@@ -26,7 +26,8 @@ Originally ported to ES-DE by [ant](https://github.com/anthonycaccese/colorful-r
 - `Theme Variant` - sets the theme variant adjusting the gamelist view. Each variant comes in a Colorful or Monochrome version which changes the theme coloring based on the system colors or a gray shade.
    - `List (video)`
    - `List (detailed)`
-   - `Carousel` 
+   - `Carousel`
+   - `Carousel (video)` 
 
  - `Theme Color Scheme` - sets the theme color scheme adjusting the background image color. [Pop Images] and [Colorful Images] change the system view artwork between the pop out character design and original colorful system images. (Colorful) and (Mono) changes the theme color scheme to use either the Colorful system colors or a Mono gray scheme. And finally there are light, dark and black variants for each that change the backgorund color.
    - `[Pop Images] (Colorful) Light`
