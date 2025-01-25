@@ -90,7 +90,7 @@ license:       creative commons CC-BY-NC-SA
 			<lineSpacing>1.2</lineSpacing>
 			<color>${colorfulColor}</color>
 		</text>
-		<text name="systemName, autoCollectionName, customCollectionName">
+		<text name="systemName, autoCollectionName, customCollectionName, customName">
 			<origin>0 0</origin> 
 			<pos>0.0260416 0.225</pos>			
 			<size>0.3070624 0.275</size>
