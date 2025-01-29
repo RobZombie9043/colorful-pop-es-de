@@ -10,7 +10,7 @@
 	<variant name="list">
 		<view name="gamelist">
 			<text name="game-players">
-				<pos>0.9175 0.3157407</pos>
+				<pos>0.92 0.3157407</pos>
 			</text>
 		</view>
 	</variant>

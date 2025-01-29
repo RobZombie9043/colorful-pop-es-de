@@ -369,7 +369,7 @@ license:       creative commons CC-BY-NC-SA
 			</text>
 			<text name="game-players">
 				<origin>0 0</origin>
-				<pos>0.928 0.3157407</pos>
+				<pos>0.93 0.3157407</pos>
 				<fontPath>${fontBold}</fontPath>
 				<fontSize>${fontSizeBody}</fontSize>
 				<lineSpacing>1.25</lineSpacing>
@@ -678,6 +678,21 @@ license:       creative commons CC-BY-NC-SA
 	Font Size
 	///
 	-->
+	<fontSize name="small">
+		<variables>
+			<fontSizeH1>0.075</fontSizeH1> 
+			<fontSizeH2>0.0625</fontSizeH2>
+			<fontSizeH3>0.05</fontSizeH3>
+			<fontSizeH4>0.0375</fontSizeH4>
+			<fontSizeH5>0.03</fontSizeH5>			
+			<fontSizeBody>0.0225</fontSizeBody> 
+			<fontSizeCaption>0.0175</fontSizeCaption> 
+			<textlistLineSpacing>1.793755294</textlistLineSpacing>
+			<ratingstarSize1>0.05</ratingstarSize1>
+			<ratingstarSize2>0.0675</ratingstarSize2>
+			<ratingstarSize3>0.085</ratingstarSize3>
+		</variables>
+	</fontSize>
 	<fontSize name="medium">
 		<variables>
 			<fontSizeH1>0.075</fontSizeH1> 
@@ -708,19 +723,19 @@ license:       creative commons CC-BY-NC-SA
 			<ratingstarSize3>0.1</ratingstarSize3>
 		</variables>
 	</fontSize>
-	<fontSize name="small">
+	<fontSize name="x-large">
 		<variables>
 			<fontSizeH1>0.075</fontSizeH1> 
 			<fontSizeH2>0.0625</fontSizeH2>
 			<fontSizeH3>0.05</fontSizeH3>
 			<fontSizeH4>0.0375</fontSizeH4>
 			<fontSizeH5>0.03</fontSizeH5>			
-			<fontSizeBody>0.0225</fontSizeBody> 
-			<fontSizeCaption>0.0175</fontSizeCaption> 
-			<textlistLineSpacing>1.793755294</textlistLineSpacing>
-			<ratingstarSize1>0.05</ratingstarSize1>
-			<ratingstarSize2>0.0675</ratingstarSize2>
-			<ratingstarSize3>0.085</ratingstarSize3>
+			<fontSizeBody>0.03</fontSizeBody> 
+			<fontSizeCaption>0.02125</fontSizeCaption> 
+			<textlistLineSpacing>2.079125455</textlistLineSpacing>
+			<ratingstarSize1>0.0725</ratingstarSize1>
+			<ratingstarSize2>0.09</ratingstarSize2>
+			<ratingstarSize3>0.1075</ratingstarSize3>
 		</variables>
 	</fontSize>
 	
