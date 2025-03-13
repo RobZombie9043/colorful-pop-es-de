@@ -37,6 +37,20 @@ license:       creative commons CC-BY-NC-SA
 			<fontSizeDimmed>${fontSizeBody}</fontSizeDimmed>
 			<opacityDimmed>1.0</opacityDimmed>
 		</helpsystem>
+		<systemstatus name="system-status">
+			<origin>1 0.5</origin>
+			<pos>0.97395833 0.0225</pos>
+			<fontPath>${fontLight}</fontPath>
+			<height>${fontSizeBody}</height>
+			<color>${helpIconColor}</color>
+		</systemstatus>
+		<clock name="clock">
+			<origin>0 0.5</origin>
+			<pos>0.0260416 0.0225</pos>
+			<fontPath>${fontLight}</fontPath>
+			<fontSize>${fontSizeBody}</fontSize>
+			<color>${helpTextColor}</color>
+		</clock>
 	</view>
 	
 	<!--
@@ -531,6 +545,12 @@ license:       creative commons CC-BY-NC-SA
 				<metadata>players</metadata>
 				<defaultValue>-</defaultValue>
 			</text>
+			<systemstatus name="system-status">
+				<color>${carouselColor}</color>
+			</systemstatus>
+			<clock name="clock">
+				<color>${carouselColor}</color>
+			</clock>
 		</view>
 	</variant>
 	
