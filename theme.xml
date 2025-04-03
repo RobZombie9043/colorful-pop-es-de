@@ -464,10 +464,11 @@ license:       creative commons CC-BY-NC-SA
 				<defaultValue>:space:</defaultValue>
 			</text>
 			<badges name="badges">
-				<origin>1 0</origin>
-				<pos>0.973958334 0.0462962</pos> 
+				<origin>0 0</origin>
+				<!-- <pos>0.973958334 0.0462962</pos> -->
+				<pos>0.026041666 0.095</pos> 
 				<size>1 0.035</size>
-				<horizontalAlignment>right</horizontalAlignment>
+				<horizontalAlignment>left</horizontalAlignment>
 				<itemMargin>0.002 -1</itemMargin>
 				<lines>1</lines>
 				<itemsPerLine>9</itemsPerLine>
