@@ -37,6 +37,20 @@ license:       creative commons CC-BY-NC-SA
 			<fontSizeDimmed>${fontSizeBody}</fontSizeDimmed>
 			<opacityDimmed>1.0</opacityDimmed>
 		</helpsystem>
+		<systemstatus name="system-status">
+			<origin>1 0.5</origin>
+			<pos>0.97395833 0.0225</pos>
+			<fontPath>${fontLight}</fontPath>
+			<height>${fontSizeBody}</height>
+			<color>${helpIconColor}</color>
+		</systemstatus>
+		<clock name="clock">
+			<origin>0 0.5</origin>
+			<pos>0.0260416 0.0225</pos>
+			<fontPath>${fontLight}</fontPath>
+			<fontSize>${fontSizeBody}</fontSize>
+			<color>${helpTextColor}</color>
+		</clock>
 	</view>
 	
 	<!--
@@ -450,10 +464,11 @@ license:       creative commons CC-BY-NC-SA
 				<defaultValue>:space:</defaultValue>
 			</text>
 			<badges name="badges">
-				<origin>1 0</origin>
-				<pos>0.973958334 0.0462962</pos> 
+				<origin>0 0</origin>
+				<!-- <pos>0.973958334 0.0462962</pos> -->
+				<pos>0.026041666 0.095</pos> 
 				<size>1 0.035</size>
-				<horizontalAlignment>right</horizontalAlignment>
+				<horizontalAlignment>left</horizontalAlignment>
 				<itemMargin>0.002 -1</itemMargin>
 				<lines>1</lines>
 				<itemsPerLine>9</itemsPerLine>
@@ -531,6 +546,12 @@ license:       creative commons CC-BY-NC-SA
 				<metadata>players</metadata>
 				<defaultValue>-</defaultValue>
 			</text>
+			<systemstatus name="system-status">
+				<color>${carouselColor}</color>
+			</systemstatus>
+			<clock name="clock">
+				<color>${carouselColor}</color>
+			</clock>
 		</view>
 	</variant>
 	
