@@ -15,18 +15,23 @@
 			</video>
 			<video name="game-system-video4">
 				<rotation>-1</rotation>
+				<audio>false</audio>
 			</video>
 			<video name="game-system-video5">
 				<rotation>-3</rotation>
+				<audio>false</audio>
 			</video>
 			<video name="game-system-video6">
 				<rotation>0</rotation>
+				<audio>false</audio>
 			</video>
 			<video name="game-system-video7">
 				<rotation>-2</rotation>
+				<audio>false</audio>
 			</video>
 			<video name="game-system-video10">
 				<rotation>-0.5</rotation>
+				<audio>false</audio>
 			</video>
 		</view>				
 			
